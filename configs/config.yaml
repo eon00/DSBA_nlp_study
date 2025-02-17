@@ -9,6 +9,7 @@ data_config:
   model_name: "bert-base-uncased"
   max_len: 128
   batch_size: 8
+  pin_memory: true  # CUDA에서 메모리 전송 최적화 여부
 
 train_config:
   wandb_project: "DSBA_nlp_bert-base-uncased"

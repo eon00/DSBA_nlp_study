@@ -64,6 +64,8 @@ class IMDBDataset(torch.utils.data.Dataset):
         return len(self.data['input_ids'])
 
     def __getitem__(self, idx) -> Tuple[dict, int]:
+
+        # import pdb; pdb.set_trace()
         inputs = {}
         inputs['input_ids'] = self.data['input_ids'][idx]
         inputs['attention_mask'] = self.data['attention_mask'][idx]
@@ -106,6 +108,8 @@ class IMDBDataset(torch.utils.data.Dataset):
 
         # if 'token_type_ids' in data_dict:
         #     data_dict['token_type_ids'] = torch.tensor(data_dict['token_type_ids'])
+
+        # import pdb; pdb.set_trace()
             
         data_dict = {
             'input_ids': torch.stack([torch.tensor(b['input_ids']) for b in batch]),
@@ -117,6 +121,8 @@ class IMDBDataset(torch.utils.data.Dataset):
         if 'token_type_ids' in batch[0]:
             data_dict['token_type_ids'] = torch.stack([torch.tensor(b['token_type_ids']) for b in batch])
 
+        # import pdb; pdb.set_trace()
+
         return data_dict
 
     
@@ -126,5 +132,5 @@ def get_dataloader(data_config : omegaconf.DictConfig, split : Literal['train', 
     """
     config = data_config.data_config
     dataset = IMDBDataset(config, split)
-    dataloader = DataLoader(dataset, batch_size=config.batch_size, shuffle=(split=='train'), collate_fn=IMDBDataset.collate_fn)
+    dataloader = DataLoader(dataset, batch_size=config.batch_size, shuffle=(split=='train'), pin_memory=True, collate_fn=IMDBDataset.collate_fn)
     return dataloader

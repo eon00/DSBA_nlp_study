@@ -47,6 +47,6 @@ class EncoderForClassification(nn.Module):
         # [CLS] 토큰을 사용하여 문장 표현 생성 (평균 풀링 대신)
         last_hidden_state = representation['last_hidden_state']
         pooled_output = torch.mean(last_hidden_state, dim=1)
-        logits = self.classification_head(pooled_output)
+        logits = self.classification_head(self.dropout(pooled_output))
         loss = self.loss_fn(logits, label) if label is not None else None
         return loss, logits

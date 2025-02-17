@@ -1,9 +1,7 @@
-export CUDA_VISIBLE_DEVICES=0
-
-# Python 학습 스크립트 실행
-# python ../train.py --config "$CONFIG_FILE"
+export CUDA_VISIBLE_DEVICES=1
 
 CONFIG_FILE="../configs/config.yaml"
+Mode="train"
 
 # Python Inference 실행
-python ../src/nlp_main.py --config "$CONFIG_FILE"
+python ../src/nlp_main.py --config "$CONFIG_FILE" --mode "$Mode"
