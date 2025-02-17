@@ -1,0 +1,8 @@
+{"time":"2025-02-15T13:03:54.537054888+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/sieon/Desktop/DSBA_nlp_study/wandb/run-20250215_130354-tsbmpk76/logs/debug-core.log"}
+{"time":"2025-02-15T13:03:54.646183093+09:00","level":"INFO","msg":"created new stream","id":"tsbmpk76"}
+{"time":"2025-02-15T13:03:54.646240004+09:00","level":"INFO","msg":"stream: started","id":"tsbmpk76"}
+{"time":"2025-02-15T13:03:54.646340238+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"tsbmpk76"}
+{"time":"2025-02-15T13:03:54.646433579+09:00","level":"INFO","msg":"sender: started","stream_id":"tsbmpk76"}
+{"time":"2025-02-15T13:03:54.646476137+09:00","level":"INFO","msg":"handler: started","stream_id":"tsbmpk76"}
+{"time":"2025-02-15T13:03:55.042170062+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-15T13:06:26.817081247+09:00","level":"INFO","msg":"Pausing system monitor"}

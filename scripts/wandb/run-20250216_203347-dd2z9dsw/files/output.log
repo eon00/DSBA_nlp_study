@@ -1,0 +1,8 @@
+Training ::   0%|                                                                                                                    | 0/25000 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/sieon/Desktop/DSBA_nlp_study/scripts/../src/main.py", line 133, in <module>
+    main(configs)
+  File "/home/sieon/Desktop/DSBA_nlp_study/scripts/../src/main.py", line 82, in main
+    train_loss = train_iter(model, batch, optimizer, device, epoch)
+  File "/home/sieon/Desktop/DSBA_nlp_study/scripts/../src/main.py", line 29, in train_iter
+    loss = outputs['loss']
+TypeError: tuple indices must be integers or slices, not str

@@ -1,0 +1,14 @@
+{"time":"2025-02-17T02:47:44.890150391Z","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/workspace/scripts/wandb/offline-run-20250217_024744-ziq7dpcs/logs/debug-core.log"}
+{"time":"2025-02-17T02:47:44.995941195Z","level":"INFO","msg":"created new stream","id":"ziq7dpcs"}
+{"time":"2025-02-17T02:47:44.996029579Z","level":"INFO","msg":"stream: started","id":"ziq7dpcs"}
+{"time":"2025-02-17T02:47:44.996121398Z","level":"INFO","msg":"writer: Do: started","stream_id":"ziq7dpcs"}
+{"time":"2025-02-17T02:47:44.996164747Z","level":"INFO","msg":"handler: started","stream_id":"ziq7dpcs"}
+{"time":"2025-02-17T02:47:44.996216258Z","level":"INFO","msg":"sender: started","stream_id":"ziq7dpcs"}
+{"time":"2025-02-17T02:47:45.016056083Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-17T02:49:17.602210884Z","level":"INFO","msg":"stream: closing","id":"ziq7dpcs"}
+{"time":"2025-02-17T02:49:17.602228563Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-17T02:49:17.602552404Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-17T02:49:17.602598785Z","level":"INFO","msg":"handler: closed","stream_id":"ziq7dpcs"}
+{"time":"2025-02-17T02:49:17.602607836Z","level":"INFO","msg":"writer: Close: closed","stream_id":"ziq7dpcs"}
+{"time":"2025-02-17T02:49:17.602620308Z","level":"INFO","msg":"sender: closed","stream_id":"ziq7dpcs"}
+{"time":"2025-02-17T02:49:17.602663435Z","level":"INFO","msg":"stream: closed","id":"ziq7dpcs"}

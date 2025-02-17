@@ -1,0 +1,21 @@
+model_config:
+  # gpu: 1
+  model_name: "bert-base-uncased"
+  use_cuda: true
+  num_labels: 2
+  dropout_rate: 0.1
+
+data_config: 
+  model_name: "bert-base-uncased"
+  max_len: 128
+  batch_size: 8
+
+train_config:
+  wandb_project: "DSBA_nlp_bert-base-uncased"
+  run_name: "bert-base-uncased"
+  epochs: 5
+
+
+
+
+

@@ -1,0 +1,15 @@
+{"time":"2025-02-16T20:45:30.153783067+09:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/sieon/Desktop/DSBA_nlp_study/scripts/wandb/run-20250216_204529-ski8qghc/logs/debug-core.log"}
+{"time":"2025-02-16T20:45:30.263375024+09:00","level":"INFO","msg":"created new stream","id":"ski8qghc"}
+{"time":"2025-02-16T20:45:30.263464907+09:00","level":"INFO","msg":"stream: started","id":"ski8qghc"}
+{"time":"2025-02-16T20:45:30.263555122+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"ski8qghc"}
+{"time":"2025-02-16T20:45:30.263573129+09:00","level":"INFO","msg":"sender: started","stream_id":"ski8qghc"}
+{"time":"2025-02-16T20:45:30.263630436+09:00","level":"INFO","msg":"handler: started","stream_id":"ski8qghc"}
+{"time":"2025-02-16T20:45:30.573439895+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-16T20:47:52.851991468+09:00","level":"INFO","msg":"stream: closing","id":"ski8qghc"}
+{"time":"2025-02-16T20:47:52.852040045+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-16T20:47:52.852491647+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-16T20:47:53.58537047+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-16T20:47:53.828206308+09:00","level":"INFO","msg":"handler: closed","stream_id":"ski8qghc"}
+{"time":"2025-02-16T20:47:53.828224744+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ski8qghc"}
+{"time":"2025-02-16T20:47:53.828240973+09:00","level":"INFO","msg":"sender: closed","stream_id":"ski8qghc"}
+{"time":"2025-02-16T20:47:53.828275347+09:00","level":"INFO","msg":"stream: closed","id":"ski8qghc"}

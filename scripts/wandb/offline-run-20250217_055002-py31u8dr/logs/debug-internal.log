@@ -1,0 +1,14 @@
+{"time":"2025-02-17T05:50:02.401595979Z","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/workspace/scripts/wandb/offline-run-20250217_055002-py31u8dr/logs/debug-core.log"}
+{"time":"2025-02-17T05:50:02.507767099Z","level":"INFO","msg":"created new stream","id":"py31u8dr"}
+{"time":"2025-02-17T05:50:02.507842866Z","level":"INFO","msg":"stream: started","id":"py31u8dr"}
+{"time":"2025-02-17T05:50:02.507925183Z","level":"INFO","msg":"writer: Do: started","stream_id":"py31u8dr"}
+{"time":"2025-02-17T05:50:02.507983924Z","level":"INFO","msg":"sender: started","stream_id":"py31u8dr"}
+{"time":"2025-02-17T05:50:02.508000805Z","level":"INFO","msg":"handler: started","stream_id":"py31u8dr"}
+{"time":"2025-02-17T05:50:02.525803269Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-17T05:51:16.720646073Z","level":"INFO","msg":"stream: closing","id":"py31u8dr"}
+{"time":"2025-02-17T05:51:16.720666304Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-17T05:51:16.72099168Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-17T05:51:16.72103429Z","level":"INFO","msg":"handler: closed","stream_id":"py31u8dr"}
+{"time":"2025-02-17T05:51:16.721042771Z","level":"INFO","msg":"writer: Close: closed","stream_id":"py31u8dr"}
+{"time":"2025-02-17T05:51:16.721056472Z","level":"INFO","msg":"sender: closed","stream_id":"py31u8dr"}
+{"time":"2025-02-17T05:51:16.721093672Z","level":"INFO","msg":"stream: closed","id":"py31u8dr"}
