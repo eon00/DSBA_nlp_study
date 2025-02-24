@@ -1,0 +1,20 @@
+model_config:
+  # gpu: 1
+  model_name: "answerdotai/ModernBERT-base"
+  use_cuda: true
+  num_labels: 2
+  dropout_rate: 0.1
+
+data_config: 
+  model_name: "answerdotai/ModernBERT-base"
+  max_len: 128
+  batch_size: 64
+  pin_memory: true  
+  valid_size: 0.1
+  test_size: 0.1
+
+train_config:
+  wandb_project: "DSBA_nlp_ModernBERT-base"
+  run_name: "ModernBERT-base"
+  epochs: 5
+  gradient_accumulation_steps: 1  # ✅ Gradient Accumulation 옵션 추가

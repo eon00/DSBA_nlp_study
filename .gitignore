@@ -1,0 +1,6 @@
+wandb/
+*.pth
+__pycache__
+post/
+*.ipynb
+*.log

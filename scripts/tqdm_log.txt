@@ -1,0 +1,1 @@
+GPU Name: NVIDIA GeForce RTX 2080 Ti

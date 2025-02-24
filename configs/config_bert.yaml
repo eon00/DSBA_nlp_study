@@ -1,0 +1,20 @@
+model_config:
+  # gpu: 1
+  model_name: "bert-base-uncased"
+  use_cuda: true
+  num_labels: 2
+  dropout_rate: 0.1
+
+data_config: 
+  model_name: "bert-base-uncased"
+  max_len: 128
+  batch_size: 8
+  pin_memory: true  
+  valid_size: 0.1
+  test_size: 0.1
+
+train_config:
+  wandb_project: "DSBA_nlp_bert-base-uncased"
+  run_name: "bert-base-uncased"
+  epochs: 5
+  gradient_accumulation_steps: 4  # ✅ Gradient Accumulation 옵션 추가
