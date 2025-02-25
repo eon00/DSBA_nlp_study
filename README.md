@@ -143,6 +143,7 @@ if accelerator.sync_gradients:
 | ModernBERT-base	              | 0.4539   | 0.9088    |
 
 1️⃣ 결과 : ModernBert 모델의 성능이 더 높음
+
 2️⃣ 이유 : ModernBERT는 기존 BERT의 아키텍처를 기반으로 모델 경량화, 최적화된 학습/추론 알고리즘, 효율적인 하드웨어 활용을 통해 BERT보다 훨씬 빠르고 가볍게 동작.
 
 
@@ -153,7 +154,17 @@ if accelerator.sync_gradients:
 | 4                          | 0.4123    | 0.9152       |
 | 8                          | 0.3987    | 0.9204       |
 
-1️⃣ 결과 : Gradient Accumulation을 적용하면 배치 크기가 증가하는 효과를 내어 성능이 향상됨
+|Model     |  batch | Test Loss | Test Accuracy|
+|----------|--------|-----------|--------------|
+|Bert      | 64     | 0.33964 |0.89181 |
+|Bert      |256     |0.34101 |0.8926 |
+|Bert      |1024    | 0.33792 | 0.89399 | 
+|ModernBERT| 64     | 0.37052 |0.90407 |
+|ModernBERT| 256    |0.38951 |0.89834 |
+|ModernBERT|1024    | 0.35484 |0.90348|
+
+
+1️⃣ 결과 : Gradient Accumulation을 적용하면 배치 크기가 증가하는 효과를 내어 성능이 향상됨,
 
 2️⃣ 이유 : 더 안정적인 학습이 이루어지며, 최적의 Accumulation Step을 설정하면 일반화 성능이 개선됨
 
