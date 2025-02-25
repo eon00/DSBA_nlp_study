@@ -148,11 +148,7 @@ if accelerator.sync_gradients:
 
 
 ## 📊 exp2 - Gradient Accumulation 실험결과
-| Gradient Accumulation Steps | Test Loss | Test Accuracy |
-|----------------------------|-----------|--------------|
-| 1 (기본)                   | 0.4539    | 0.9088       |
-| 4                          | 0.4123    | 0.9152       |
-| 8                          | 0.3987    | 0.9204       |
+
 
 |Model     |  batch | Test Loss | Test Accuracy|
 |----------|--------|-----------|--------------|
