@@ -160,11 +160,7 @@ if accelerator.sync_gradients:
 |ModernBERT|1024    | 0.35484 |0.90348|
 
 
-1️⃣ 결과 : Gradient Accumulation을 적용하면 배치 크기가 증가하는 효과를 내어 성능이 향상됨,
-
-2️⃣ 이유 : 더 안정적인 학습이 이루어지며, 최적의 Accumulation Step을 설정하면 일반화 성능이 개선됨
-
-3️⃣ 모델별 바교
+1️⃣ 모델별 바교
 - BERT : 최적의 배치사이즈는 1024
 
 - ModernBERT :  최적의 배치사이즈는 64
